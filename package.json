@@ -4,7 +4,8 @@
   "description": "API webservice for application of foods",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard",
+    "dev": "node app.js"
   },
   "keywords": [
     "js",
@@ -13,6 +14,11 @@
   "author": "Jesus Marquez",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.1"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
   }
 }
